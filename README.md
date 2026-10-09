@@ -78,7 +78,7 @@ docker compose down -v
 
 ## Data Persistence
 
-PostgreSQL data is persisted through the named volume defined in `compose.yaml`.
+PostgreSQL data is persisted through the named volume defined in `compose.yml`.
 
 The data remains available when containers are stopped, paused, resumed, or removed using `docker compose down`, as long as the volume is not deleted.
 
